@@ -8,11 +8,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 // class User extends Authenticatable implements MustVerifyEmail
-<<<<<<< HEAD
-class User extends Authenticatable
-=======
+
 class User extends Authenticatable implements MustVerifyEmail
->>>>>>> 49a6603a08b97d8fc25b2c6c8e2ad4b6b32696f2
 {
     use HasFactory, Notifiable;
 
